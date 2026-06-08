@@ -44,6 +44,6 @@ BUILD SUCCESS
 src/main/java  → Exercises
 src/test/java  → Tests
 challenges/    → Instructions
-solutions/     → Example solutions
+.../solutions/ → Example solutions
 ```
-Happy coding ✨
+Happy coding & try not to use intellisense as much ✌️😉

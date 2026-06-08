@@ -93,4 +93,83 @@ README.md = what this repo is
 CONTRIBUTING.md = how to submit work
 .gitlab-ci.yml = auto-runs tests when they push
 
-#
+#############################################
+Those “correct the following code” / “will it compile” / “predict the output” style questions should definitely go under:
+
+```java
+package com.javahub.ocp;
+```
+
+because they’re:
+
+* certification-style
+* compiler-behaviour focused
+* Java-rule focused
+* less about algorithms/problem solving
+* more about understanding Java syntax and quirks
+
+So your repo could naturally split into:
+
+```text
+com.javahub.basics
+```
+
+* reverse string
+* fizzbuzz
+* palindrome
+* count vowels
+
+---
+
+```text
+com.javahub.oop
+```
+
+* bank account
+* student manager
+* inheritance
+
+---
+
+```text
+com.javahub.collections
+```
+
+* HashMap
+* HashSet
+* duplicates
+* counting words
+
+---
+
+```text
+com.javahub.streams
+```
+
+* filtering
+* mapping
+* sorting
+
+---
+
+```text
+com.javahub.ocp
+```
+
+* will it compile
+* correct the code
+* flow scoping
+* pattern variables
+* var traps
+* switch expressions
+* predict output
+* exception behaviour
+
+That separation is REALLY nice because learners can tell:
+
+```text
+basics = coding practice
+ocp = Java compiler psychological warfare
+```
+
+which is honestly accurate 😭
