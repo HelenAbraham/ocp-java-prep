@@ -84,7 +84,7 @@ class CountVowelsTest {
     @Test
     void shouldWorkWithSingleLetter() {
         assertEquals(1, CountVowels.countVowels("a"));
-    }
+    }ffff
 }
 ```
 
